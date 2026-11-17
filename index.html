@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<title>Home | IX Coffee</title>
+<meta name="description" content="IX Coffee: small-batch coffee and gingerbread bakes, brewed for the cosiest winter holidays.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="js/theme.js"></script>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header>
+  <nav class="navbar navbar-expand-lg sticky-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">IX C<span class="hat-o">o</span>ffee</a>
+      <div class="nav-tools order-1 order-lg-2 ms-auto ms-lg-0">
+        <button class="icon-btn cart-btn" id="navCart" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartDrawer" aria-controls="cartDrawer" aria-label="Open your order: 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+          <span class="cart-badge" id="navCartCount" hidden>0</span>
+        </button>
+        <button class="icon-btn" id="themeToggle" type="button" aria-pressed="true" aria-label="Dark mode" title="Switch to light mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      </div>
+      <div class="collapse navbar-collapse order-2 order-lg-1" id="nav">
+        <ul class="navbar-nav ms-lg-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu &amp; pre-order</a></li>
+          <li class="nav-item"><a class="nav-link" href="loyalty.html">Regulars Club</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+<section class="hero"><div class="container"><div class="row align-items-center g-4">
+ <div class="col-12 col-md-7"><h1>IX C<span class="hat-o">o</span>ffee</h1>
+ <p class="tagline">Coffee that tastes like New Year.</p>
+ <p class="lead my-4">Small-batch roasts, gingerbread bakes and a few friendly snowmen. Come in from the cold.</p>
+ <a href="menu.html" class="btn btn-pumpkin me-2 mb-2">See the menu</a><a href="#events" class="btn btn-outline-bone mb-2">Winter events</a></div>
+ <div class="col-8 col-md-5 mx-auto"><svg class="cup" viewBox="0 0 300 300" role="img" aria-label="Red coffee cup with a friendly snowman rising from the steam">
+ <g class="ghost"><circle cx="150" cy="130" r="31" fill="#EAF4FF"/><circle cx="150" cy="86" r="26" fill="#EAF4FF"/><path d="M127 76a23 23 0 0 1 46 0z" fill="#D62839"/><rect x="124" y="74" width="52" height="9" rx="4.5" fill="#fff"/><circle cx="150" cy="51" r="6" fill="#fff"/><circle cx="141" cy="90" r="3.2" fill="#0A1426"/><circle cx="159" cy="90" r="3.2" fill="#0A1426"/><path d="M150 95l17 4-17 4z" fill="#FF8C2A"/><path d="M126 108q24 12 48 0v10q-24 12-48 0z" fill="#D62839"/><path d="M162 114h12v22h-12z" fill="#B21C30"/><circle cx="150" cy="130" r="3" fill="#0A1426"/><circle cx="150" cy="144" r="3" fill="#0A1426"/></g>
+ <path class="steam" d="M110 175c-10-12 10-18 0-30"/><path class="steam s2" d="M150 178c-10-12 10-18 0-30"/><path class="steam s3" d="M190 175c-10-12 10-18 0-30"/>
+ <path d="M70 190h160v40a60 60 0 0 1-60 60h-40a60 60 0 0 1-60-60z" fill="#D62839"/>
+ <path d="M230 205h18a25 25 0 0 1 0 50h-30" fill="none" stroke="#D62839" stroke-width="14"/>
+ <path d="M150 212v36M132 222l36 16M132 238l36-16" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+ <ellipse cx="150" cy="190" rx="80" ry="10" fill="#3A2140"/>
+</svg>
+</div></div></div></section>
+
+<section class="band" id="story"><div class="container"><div class="row g-4 align-items-center">
+ <div class="col-12 col-lg-6"><h2>A café for slow, snowy evenings</h2>
+ <p>IX Coffee started as one roaster in a garage and a stubborn love of winter. We roast every Tuesday, bake every morning and light the garlands at sunset.</p>
+ <p>From December 1st the whole menu turns festive, and on the 31st the staff come to work in Santa hats. Yes, even the barista who says he hates dressing up.</p></div>
+ <div class="col-12 col-lg-6"><div class="row text-center g-3">
+  <div class="col-4"><div class="stat text-warning">12</div><small>seasonal drinks</small></div>
+  <div class="col-4"><div class="stat text-warning">6am</div><small>daily baking starts</small></div>
+  <div class="col-4"><div class="stat text-warning">1</div><small>resident snowman</small></div></div></div>
+</div></div></section>
+
+<section id="signature"><div class="container"><h2>Winter signatures</h2><p class="mb-4">Hover or focus a drink to learn its secret name.</p>
+<div class="row g-4"><div class="col-12 col-md-6 col-lg-3"><article class="drink" tabindex="0"><div class="emoji" aria-hidden="true">🎄</div><h3 class="h4 mt-2">Gingerbread Latte</h3><p class="mb-2">Ginger, cinnamon, molasses, oat milk.</p><span class="spooky">Festive name: Santa’s Morning Cup</span><span class="price">2 200 ₸</span></article></div><div class="col-12 col-md-6 col-lg-3"><article class="drink" tabindex="0"><div class="emoji" aria-hidden="true">❄️</div><h3 class="h4 mt-2">Frosted Cold Brew</h3><p class="mb-2">18-hour cold brew with a vanilla-cream snowcap.</p><span class="spooky">Festive name: Jack Frost’s Wake-up Call</span><span class="price">2 000 ₸</span></article></div><div class="col-12 col-md-6 col-lg-3"><article class="drink" tabindex="0"><div class="emoji" aria-hidden="true">🔔</div><h3 class="h4 mt-2">Mulled Apple Cider</h3><p class="mb-2">Warm cider, caramel, a cinnamon stick.</p><span class="spooky">Festive name: Reindeer Fuel</span><span class="price">1 900 ₸</span></article></div><div class="col-12 col-md-6 col-lg-3"><article class="drink" tabindex="0"><div class="emoji" aria-hidden="true">⭐</div><h3 class="h4 mt-2">Black Sesame Mocha</h3><p class="mb-2">Dark chocolate, black sesame, espresso.</p><span class="spooky">Festive name: Midnight Sleigh Ride</span><span class="price">2 300 ₸</span></article></div></div></div></section>
+
+<section class="band-orange" id="events"><div class="container"><div class="row g-4"><div class="col-12 col-lg-5"><h2>Winter at the café</h2><p>Free to join. Seats are limited, so pre-order a drink to hold your table.</p><a href="menu.html#preorder" class="btn btn-dark rounded-pill px-4">Pre-order now</a></div>
+<div class="col-12 col-lg-7">
+ <div class="event"><h3 class="h5 mb-0"><button type="button" class="event-toggle" aria-expanded="true" aria-controls="event1"><span class="date">Dec 13 · Sunday</span><span class="event-title">Latte art: snowflakes &amp; fir trees</span></button></h3>
+  <div class="event-more" id="event1"><p class="mb-0">Learn to pour a Christmas tree in your foam.</p></div></div>
+ <div class="event"><h3 class="h5 mb-0"><button type="button" class="event-toggle" aria-expanded="false" aria-controls="event2"><span class="date">Dec 24 · Thursday</span><span class="event-title">Cocoa &amp; carols night</span></button></h3>
+  <div class="event-more" id="event2" hidden><p class="mb-0">Candlelight, mulled cider and carols sung together.</p></div></div>
+ <div class="event mb-0"><h3 class="h5 mb-0"><button type="button" class="event-toggle" aria-expanded="false" aria-controls="event3"><span class="date">Dec 31 · Thursday</span><span class="event-title">Ugly sweater coffee</span></button></h3>
+  <div class="event-more" id="event3" hidden><p class="mb-0">Come in your funniest holiday sweater and your second cup is on us.</p></div></div>
+</div></div></div></section>
+</main>
+<footer>
+  <div class="container">
+    <p class="mb-0"><strong>IX Coffee</strong> · Turan Ave 39/3, Astana, open daily 8:00–22:00</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/data.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/script.js"></script>
+<script src="js/effects.js"></script>
+</body>
+</html>
